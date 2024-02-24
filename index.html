@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+       <!--css import-->
+       <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css">
+        <!--javascript imports-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="sidebar"><!--open sidebar-->
+            <div class="header"><!--Header-->
+                Nathan Padinha basic info
+            </div>
+            <div id="headshot"><!--open headshot-->   
+                <img id="headshotimg" width="200" src="assets\Headshot.jpg">
+            </div>
+            <div id="infobody"><!--infobox-->
+                <p>Phone - 516.220.6927</p>
+                <p>Email - nspadinha@gmal.com</p>
+                <div class="navbar">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="projects.html">Personal Projects</a>
+                    <a href="skills.html">Skills/Experience</a>
+                    <a href="robot.html">Robotics</a>
+                    <a href="achievements.html">Personal Achievements</a>
+                </div><!--navbar-->
+            </div><!--sidebar-->
+        </div><!--close sidebar-->
+        <div class="description">
+            <div class="header">Description</div>
+            <div>Im Nathan Padinha, a dedicated and proactive individual on a mission to make a difference. Throughout my journey, I've consistently shown a strong work ethic and an unwavering commitment to success.
+
+                At the core of my professional identity lies effective communication. Whether I'm engaging with campers as a Camp Counselor, ensuring clear instructions as a Pool Attendant, or streamlining internal communication documents during my internship at CoreBTS, I thrive on connecting with others and tailoring my message to resonate with diverse audiences.
+                
+                Leadership is where I truly shine. Guiding teams, driving operational efficiency, and fostering professional relationships are all areas where I excel. My articulate and persuasive communication style enables me to lead with confidence and effectiveness in any situation.
+                
+                I'm also a lifelong learner, constantly seeking to expand my skills and knowledge. My certifications in Osha 10, AutoCad, Inventor, Python, and HTML are a testament to my dedication to personal and professional growth.
+                
+                I invite you to explore my portfolio and learn more about my journey and accomplishments. If you're looking for someone who brings a unique blend of communication prowess, leadership skills, and technical expertise to the table, then look no further. Let's connect and explore how I can contribute to your team's success.
+                
+                Thank you for visiting!
+                
+                </div>
+        </div>
+        <div class="carousel">
+            <div class="carousel-images">
+              <img src="assets\photos\IMG_0185.JPG" alt="Image 1">
+              <img src="assets\photos\IMG_0562.JPG" alt="Image 2">
+              <img src="assets\photos\IMG_8150.JPG" alt="Image 3">
+              <img src="assets\photos\IMG_8123.JPG" alt="Image 4">
+              <img src="assets\photos\IMG_6139.JPG" alt="Image 5">
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+    </body>
+</html>
