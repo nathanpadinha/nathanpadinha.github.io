@@ -128,3 +128,17 @@ body{
     right: 0;
   }
 
+#realworld{
+position:relative;
+}
+#digital{
+  position:relative;
+  margin-top:-170px;
+#work{
+  position:relative;
+  
+
+}
+#certifications{
+  position:relative;
+}
