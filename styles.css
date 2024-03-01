@@ -94,12 +94,12 @@ body{
 
 .carousel {
     position: relative;
-    max-width: 600px;
-    margin: 30px auto auto 350px; /* Adjust margins as needed */
+    max-width: 800px;
+    margin: 30px auto auto 30px; /* Adjust margins as needed */
     overflow: hidden;
     border: 5px black solid;
     border-radius: 10px;
-
+    min-width: 500px;
   }
   
   .carousel-images {
@@ -166,4 +166,3 @@ body{
     }
 }
 
-    
