@@ -1,0 +1,13 @@
+       <section id="Python_Projects" class="ProjectScection"><!--Python Projects Open-->
+            <div class="ProjectSectionHeader">Python Projects</div>
+
+        </section><!--Python Projects Close-->
+        <section id="HTML/CSS_Projects" class="ProjectScection"><!--HTML/CSS Projects Open-->
+            <div class="ProjectSectionHeader">HTML/CSS Projects</div>
+
+        </section><!--HTML/CSS Projects Close-->
+        <section id="Javascript_Projects" class="ProjectScection"><!--Javascript Projects Open-->
+            <div class="ProjectSectionHeader">Javascript Projects</div>
+
+        </section><!--Javacript Projects Close-->
+        

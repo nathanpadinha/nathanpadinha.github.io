@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
+        <title>Projects</title>
        <!--css import-->
        <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
@@ -11,32 +11,63 @@
         <script src="scripts.js"></script>
     </head>
     <body>
-        <div id="sidebar"><!--open sidebar-->
-            <div class="header"><!--Header-->
-                Nathan Padinha basic info
+        <div id="navBar"><!--Navbar Open-->
+            <span class="navItem" id="navItem1"><a href="index.html">Home</a></span>
+            <span class="active" id="navItem2">Projects</span>
+            <span class="navItem" id="navItem3"><a href="experience.html">Experience</a></span>
+            <span class="navItem" id="navItem4"><a href="certifications.html">Certifications</a></span>
+            <!--<span class="navItem" id="navItem5"><a href="skills.html">Skills</a></span>-->
+            <!--<span class="navItem" id="resume"><a href="resume.html" >Resume</a></span>-->
+        </div><!--Navbar Close-->
+        <section id="projectSectionOverview"><!--Overview Open-->
+            <div id="header">Project Languages</div>
+            <div><!--Project Langueges Line 1-->
+            <!--
+            <a class="projectLanguage" href="projects.html#C_Projects">C</a>
+            <a class="projectLanguage" href="projects.html#Python_Projects">Python</a>
+            <a class="projectLanguage" href="projects.html#HTML/CSS_Projects">HTML/CSS</a>
+            <a class="projectLanguage" href="projects.html#Javascript_Projects">Javascript</a>
+            -->
             </div>
-            <div id="headshot"><!--open headshot-->   
-                <img id="headshotimg" width="200" src="assets\Headshot.jpg">
-            </div>
-            <div id="infobody"><!--infobox-->
-                <p>Phone - 516.220.6927</p>
-                <p>Email - nspadinha@gmal.com</p>
-                <div class="navbar">
-                    <a href="index.html">Home</a>
-                    <a class="active" href="projects.html">Personal Projects</a>
-                    <a href="skills.html">Skills/Experience</a>
-                    <a href="robot.html">Robotics</a>
-                    <a href="achievements.html">Personal Achievements</a>
-
-                </div>
-            </div>
-        </div><!--close sidebar-->
-        <div><!--Open Main Wrap-->
-            <div class="description">
-                <embed src="assets/school_projects/ITE_213_Term_Paper.pdf" width="800px" height="2100px" />
-            </div>
-       </div> 
-
-
+        </section><!--Overview Close-->
+        <section id="C_Projects" class="ProjectScection"><!--C Projects Open-->
+            <div class="ProjectSectionHeader">C Projects</div>
+            <div class="Project"><!--C_Libraries Open-->
+                <div><!--Title Open-->
+                    <span class="ProjectTitle">C_Libraries: <a href="https://github.com/nathanpadinha/C_Libraries" target="blank">Github</a></span>
+                </div><!--Title Close-->
+                <div class="body"><!--Description Open-->
+                    A growing library of C code modules, designed to 
+                    simplify common programming tasks and accelerate development.
+                </div><!--Description Close-->
+                <div class="SkillsDemonstratedList">
+                    <span>Skills Demonstrated</span>
+                        <ul>
+                            <li>Problem-Solving</li>
+                            <li>Modular Design</li>
+                            <li>Code Organization</li>
+                            <li>Memory Management</li>
+                            <li>Cross-Platform Compatibility</li>
+                        </ul>
+                    </div>
+            </div><!--C_Libraries Close--> 
+            <div class="Project"><!--Giraffe_Academy_C_Totorial_Files Open-->
+                <div><!--Title Open-->
+                    <span class="ProjectTitle">Giraffe_Academy_C_Totorial_Files: <a href="https://github.com/nathanpadinha/Giraffe_Academy_C_Totorial_Files" target="blank">Github</a></span>
+                </div><!--Title Close-->
+                <div class="body"><!--Description Open-->
+                    The files that were made when following the Giraffe Academy C tutorial.
+                </div><!--Description Close-->
+                <div class="SkillsDemonstratedList">
+                    <span>Skills Demonstrated</span>
+                        <ul>
+                            <li>C Programming Fundamentals</li>
+                            <li>Data Structures</li>
+                            <li>Code Organization</li>
+                            <li>File I/O</li>
+                        </ul>
+                    </div>
+            </div><!--Giraffe_Academy_C_Totorial_Files Close-->
+        </section><!--C Projects Close-->
     </body>
 </html>

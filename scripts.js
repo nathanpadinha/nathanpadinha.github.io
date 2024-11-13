@@ -1,26 +1,30 @@
-let slideIndex = 0;
+$(document).ready(function() {
+  // Initially hide the writing portfolio div and mark "Code Portfolio" as active
+  $("#writePortDiv").hide();
+  $("#codePort").addClass("portfolioActive");
 
-function showSlide(index) {
-  const slides = document.querySelectorAll('.carousel-images img');
-  if (index < 0) {
-    slideIndex = slides.length - 1;
-  } else if (index >= slides.length) {
-    slideIndex = 0;
-  }
-  slides.forEach((slide) => {
-    slide.style.display = 'none';
+  // Event handler for clicking on "Code Portfolio"
+  $("#codePort").click(function() {
+      if (!$(this).hasClass("portfolioActive")) {
+          $(".portfolioChoice").removeClass("portfolioActive");
+          $(this).addClass("portfolioActive");
+          $("#codePortDiv").slideDown();
+          $("#writePortDiv").slideUp();
+      }
   });
-  slides[slideIndex].style.display = 'block';
-}
 
-function nextSlide() {
-  slideIndex++;
-  showSlide(slideIndex);
-}
-
-function prevSlide() {
-  slideIndex--;
-  showSlide(slideIndex);
-}
-
-showSlide(slideIndex);
+  // Event handler for clicking on "Writing Portfolio"
+  $("#writePort").click(function() {
+      if (!$(this).hasClass("portfolioActive")) {
+          $(".portfolioChoice").removeClass("portfolioActive");
+          $(this).addClass("portfolioActive");
+          $("#codePortDiv").slideUp();
+          $("#writePortDiv").slideDown();
+      }
+  });
+  //-----------------------------------------------------------
+  //-----------------------------------------------------------
+  //-----------------------------------------------------------
+  //-----------------------------------------------------------
+  
+});
