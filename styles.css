@@ -75,6 +75,11 @@ a:hover{
   border-bottom: #5B4E88 8px solid;
   margin:20px;
 }
+.ProjectBreak{
+  border-bottom: #5B4E88 8px solid;
+  margin:25px;
+  margin-inline: 10%;
+}
 .ProjectSectionHeader{
   font-size: 45px;
   font-weight: bold;
@@ -94,6 +99,22 @@ a:hover{
   font-size: 25px;
   text-align: left;
   margin:20px auto 20px auto;
-  margin-inline: 35%;
- 
+  justify-content: center;
+  max-width: fit-content;
+}
+.downloadButton {
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 10%;
+  background-color: #493c75;
+  border-radius: 20px;
+  max-width: 566px;
+  /* Center the button horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.downloadButton:hover{
+  background-color: #FFFFFF;
 }
