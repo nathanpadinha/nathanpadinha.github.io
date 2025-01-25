@@ -38,7 +38,6 @@ $(document).ready( async function() {
     const mediumAnswers =[
         'vincent van gogh',
         '1945',
-        'au',
         'mars',
         'william shakespeare',
         'yen',
