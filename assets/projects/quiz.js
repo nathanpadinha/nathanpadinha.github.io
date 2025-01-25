@@ -113,11 +113,10 @@ post: returns question, awnser
 */
 function GetQuestion(i){
     //Variable declaration
-    let randomNum = -1;
+    let randomNum;
     let question="";
     let answer="";
     //random
-    numList.push(randomNum)
     randomNum=Math.floor(Math.random() * 10)
 
     //question diffuculty logic
