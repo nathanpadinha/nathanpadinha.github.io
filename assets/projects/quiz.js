@@ -89,7 +89,7 @@ post:n/a
 
 async function IntoFunction(){
     const introStatments = [
-        "Hello welcome to the Brian Drain!",
+        "Hello welcome to the Brain Drain!",
         "In this game you are going to answer 10 questions.", 
         "They are going to get harder as they go on.",
         "Remember all of your answers should be all lowercase.",
