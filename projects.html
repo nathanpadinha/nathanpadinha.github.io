@@ -1,108 +1,41 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Projects</title>
-       <!--css import-->
-       <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
-        <link rel="stylesheet" href="styles.css">
-        <!--javascript imports-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-        <script src="scripts.js"></script>
-    </head>
-    <body>
-        <div id="navBar"><!--Navbar Open-->
-            <span class="navItem" id="navItem1"><a href="index.html">Home</a></span>
-            <span class="active" id="navItem2">Projects</span>
-            <span class="navItem" id="navItem3"><a href="experience.html">Experience</a></span>
-            <span class="navItem" id="navItem4"><a href="certifications.html">Certifications</a></span>
-           <!-- <span class="navItem" id="navItem5"><a href="skills.html">Skills</a></span>-->
-            <span class="navItem" id="resume"><a href="assets/NathanPadinhaResume.pdf" download >Resume</a></span>
-        </div><!--Navbar Close-->
-        <section id="projectSectionOverview"><!--Overview Open-->
-            <div id="header">Project Languages</div>
-            <div><!--Project Langueges Line 1-->
-            <a class="projectLanguage" href="projects.html#C_Projects">C</a>
-            <a class="projectLanguage" href="projects.html#Python_Projects">Python</a>
-            <a class="projectLanguage" href="projects.html#HTML/CSS_Projects">HTML/CSS</a>
-            <a class="projectLanguage" href="projects.html#Javascript_Projects">Javascript</a>
+<head>
+    <title>Projects</title>
+   <!--css import-->
+   <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <!--javascript imports-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="navBar"><!--Navbar Open-->
+        <span class="navItem" id="navItem1"><a href="index.html">Home</a></span>            
+        <span class="active" id="navItem2">Projects</span>
+        <span class="navItem" id="navItem3"><a href="experience.html">Experience</a></span>
+        <span class="navItem" id="navItem4"><a href="certifications.html">Certifications</a></span>
+        <span class="navItem" id="resume"><a href="assets/NathanPadinhaResume.pdf" download >Resume</a></span>
+    </div><!--Navbar Close-->
+    <div class="ProjectSection"><!--Python-->
+        <div class="ProjectSectionHeader">Projects In Python</div>
+        <div class="ProjectSectionBody">
+            <div class="ProjectSectionBodyTile"><a href="">Web Scraper:</a><br> Demonstrated Skills</div>
+                <ul>
+                    <li>Web Scraping</li>
+                    <li>Beautiful Soup Library</li>
+                    <li>Data Organizatin</li>
+                </ul>
             </div>
-        </section><!--Overview Close-->
-        <section id="C_Projects" class="ProjectScection"><!--C Projects Open-->
-            <div class="ProjectSectionHeader">C Projects</div>
-            <div class="Project"><!--Giraffe_Academy_C_Totorial_Files Open-->
-                <div><!--Title Open-->
-                    <span class="ProjectTitle">Giraffe Academy C Totorial Files: <a href="https://github.com/nathanpadinha/Giraffe_Academy_C_Totorial_Files" target="blank">Github</a></span>
-                </div><!--Title Close-->
-                <div class="body"><!--Description Open-->
-                    The files that were made when following the Giraffe Academy C tutorial.
-                </div><!--Description Close-->
-                <div class="SkillsDemonstratedList">
-                    <span>Skills Demonstrated</span>
-                        <ul>
-                            <li>C Programming Fundamentals</li>
-                            <li>Data Structures</li>
-                            <li>Code Organization</li>
-                            <li>File I/O</li>
-                            <li>Variables and Data Types</li>
-                            <li>Operators and Expressions</li>
-                            <li>Functions</li>
-                            <li>Control Flow</li>
-                        </ul>
-                    </div>
-            </div><!--Giraffe_Academy_C_Totorial_Files Close-->
-            <div class="ProjectBreak"></div>
-            <div class="Project"><!--C_Libraries Open-->
-                <div><!--Title Open-->
-                    <span class="ProjectTitle">C_Libraries: <a href="https://github.com/nathanpadinha/C_Libraries" target="blank">Github</a></span>
-                </div><!--Title Close-->
-                <div class="body"><!--Description Open-->
-                    A growing library of C code modules, designed to 
-                    simplify common programming tasks and accelerate development.
-                </div><!--Description Close-->
-                <div class="SkillsDemonstratedList">
-                    <span>Skills Demonstrated</span>
-                        <ul>
-                            <li>Problem-Solving</li>
-                            <li>Modular Design</li>
-                            <li>Code Organization</li>
-                            <li>Memory Management</li>
-                            <li>Cross-Platform Compatibility</li>
-                        </ul>
-                    </div>
-            </div><!--C_Libraries Close-->     
-        </section><!--C Projects Close-->
-        <section id="Python_Projects" class="ProjectScection"><!--Python Projects Open-->
-            <div class="ProjectSectionHeader">Python Projects</div>
+    </div>
 
-        </section><!--Python Projects Close-->
-        <section id="HTML/CSS_Projects" class="ProjectScection"><!--HTML/CSS Projects Open-->
-            <div class="ProjectSectionHeader">HTML/CSS Projects</div>
-
-        </section><!--HTML/CSS Projects Close-->
-        <section id="Javascript_Projects" class="ProjectScection"><!--Javascript Projects Open-->
-            <div class="ProjectSectionHeader">Javascript Projects</div>
-            <div class="Project"><!--NCC_ITE154_HW Open-->
-                <div><!--Title Open-->
-                    <span class="ProjectTitle">NCC_ITE154_HW: <a href="https://github.com/nathanpadinha/NCC_ITE154_HW" target="blank">Github</a></span>
-                </div><!--Title Close-->
-                <div class="body"><!--Description Open-->
-                    Homework files from ITE 154 Introduction to Web Development at Nassau Community College
-                </div><!--Description Close-->
-                <div class="SkillsDemonstratedList">
-                    <span>Skills Demonstrated</span>
-                        <ul>
-                            <li>Javascript Programming Fundamentals</li>
-                            <li>Variables and Data Types</li>
-                            <li>Operators and Expressions</li>
-                            <li>Functions</li>
-                            <li>Control Flow</li>
-                            <li>JQuery Programming Fundamentals</li>
-                            <li>Animations and Effects</li>
-                            <li>Event Handling and Manipulation</li>
-                        </ul>
-                    </div>
-            </div><!--NCC_ITE154_HW Close-->
-        </section><!--Javacript Projects Close-->
-    </body>
-</html>
+    <div class="ProjectSection"><!--Web Dev-->
+        <div class="ProjectSectionHeader">Projects In Web Development</div>
+        <div class="ProjectSectionBody">
+            <div class="ProjectSectionBodyTile"><a href="assets/projects/quiz.html">Brain Drain Quiz Game:</a><br> Demonstrated Skills</div>
+               <ul>
+                    <li>DOM Manipulation</li>
+                    <li>Dynamic UI/UX Design</li>
+               </ul>
+            </div>
+    </div>
+</body>
