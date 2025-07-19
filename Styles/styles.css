@@ -1,42 +1,8 @@
-body{
-  background-color: #8578B5;
-  color:#FFFFFF;
-  font-family: 'Open Sans', 'Roboto Slab', 'Montserrat';
-  line-height: 1.4;
-  text-align: center;
-}
-a{
-  color: inherit;
-  text-decoration: inherit;
-}
-a:hover{
-  color:#493c75;
-}
-#navBar{
-  text-align: right;
-  background-color: #5B4E88;
-  border: 10px, #5B4E88;
-  padding:25px;
-  margin-bottom: 30px;
-}
-.navItem{
-  font-size: 18.8px;
-  margin: 25px;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-.active{
-  font-size: 18.8px;
-  margin: 25px;
-  color: #3A2F5E;
-  font-weight: bold;
-}
-.PersonalStatment{
+
+#personalStatment{
   height: fit-content;
   margin-top:150px;
   font-size: 25px;
-  margin-inline-start: 25%;
-  margin-inline-end: 25%;
 }
 #header{
   font-size: 55px;

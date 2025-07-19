@@ -2,22 +2,34 @@
 <html>
     <head>
         <title>Experience</title>
-       <!--css import-->
-       <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
-        <link rel="stylesheet" href="styles.css">
-        <!--javascript imports-->
+        <link rel="icon" type="image/x-icon" href="assets/icons/rating.png">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+        <link rel="stylesheet" href="Styles/template.css">
+        <link rel="stylesheet" href="Styles/styles.css">
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-        <script src="scripts.js"></script>
+        <script src="Scripts/template.js"></script>
+
     </head>
+
     <body>
-        <div id="navBar"><!--Navbar Open-->
-            <span class="navItem" id="navItem1"><a href="index.html">Home</a></span>
-            <span class="navItem" id="navItem2"><a href="projects.html">Projects</a></span>
-            <span class="active" id="navItem3">Experience</span>
-            <span class="navItem" id="navItem4"><a href="certifications.html">Certifications</a></span>
-           <span class="navItem" id="resume"><a href="assets/NathanPadinhaResume.pdf" download >Resume</a></span>
-            </div><!--Navbar Close-->
+        <nav>
+            <div class="logo">Your Logo</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a id=active>Experience</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="assets/NathanPadinhaResume.pdf" download>Resume</a></li>
+
+                </ul>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+        </nav>
         <div id="experience"><!--Experiance Open-->
                 <span><!--Tech Intern Open-->
                     <span class="workPosition">IT Tech Intern</span><br><span class="employer">Core BTS</span> <span class="employmentDates">Sept 2023 - May 2024</span>
