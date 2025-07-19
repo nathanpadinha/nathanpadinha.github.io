@@ -34,6 +34,9 @@ a:hover{
 .PersonalStatment{
   height: fit-content;
   margin-top:150px;
+  font-size: 25px;
+  margin-inline-start: 25%;
+  margin-inline-end: 25%;
 }
 #header{
   font-size: 55px;
