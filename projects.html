@@ -1,41 +1,63 @@
-<head>
-    <title>Projects</title>
-   <!--css import-->
-   <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <!--javascript imports-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-    <script src="scripts.js"></script>
-</head>
-<body>
-    <div id="navBar"><!--Navbar Open-->
-        <span class="navItem" id="navItem1"><a href="index.html">Home</a></span>            
-        <span class="active" id="navItem2">Projects</span>
-        <span class="navItem" id="navItem3"><a href="experience.html">Experience</a></span>
-        <span class="navItem" id="navItem4"><a href="certifications.html">Certifications</a></span>
-        <span class="navItem" id="resume"><a href="assets/NathanPadinhaResume.pdf" download >Resume</a></span>
-    </div><!--Navbar Close-->
-    <div class="ProjectSection"><!--Python-->
-        <div class="ProjectSectionHeader">Projects In Python</div>
-        <div class="ProjectSectionBody">
-            <div class="ProjectSectionBodyTile"><a href="">Web Scraper:</a><br> Demonstrated Skills</div>
-                <ul>
-                    <li>Web Scraping</li>
-                    <li>Beautiful Soup Library</li>
-                    <li>Data Organizatin</li>
-                </ul>
-            </div>
-    </div>
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Projects</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="ProjectSection"><!--Web Dev-->
-        <div class="ProjectSectionHeader">Projects In Web Development</div>
-        <div class="ProjectSectionBody">
-            <div class="ProjectSectionBodyTile"><a href="assets/projects/quiz.html">Brain Drain Quiz Game:</a><br> Demonstrated Skills</div>
-               <ul>
-                    <li>DOM Manipulation</li>
-                    <li>Dynamic UI/UX Design</li>
-               </ul>
+            <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+            <link rel="stylesheet" href="Styles/template.css">
+            <link rel="stylesheet" href="Styles/styles.css">
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+            <script src="Scripts/template.js"></script>
+
+        </head>
+
+        <body>
+            <nav>
+                <div class="logo"><img src="assets/icons/setting.png" alt="Projects"></div>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a id="active">Projects</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="assets/NathanPadinhaResume.pdf" download>Resume</a></li>
+
+                    </ul>
+                <div class="menu-icon" id="menu-icon">&#9776;</div>
+            </nav>
+            <div class="ProjectSection"><!--Python-->
+                <div class="ProjectSectionHeader">Projects In Python</div>
+                    <div class="ProjectSectionBody">
+                        <div class="ProjectSectionBodyTile"><a href="">Web Scraper:</a><br> Demonstrated Skills</div>
+                            <ul>
+                                <li>Web Scraping</li>
+                                <li>Beautiful Soup Library</li>
+                                <li>Data Organizatin</li>
+                            </ul>
+                        </div>
+                        <div class="ProjectSectionBodyTile"><a href="">Al-Powered Resume Scanner & Job Match Tool:</a><br> Demonstrated Skills</div>
+                            <ul>
+                                <li>AI integration using Ollama & Llama2</li>
+                                <li>Natural Language Processing (NLP) for resume and job description comparison</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
             </div>
-    </div>
-</body>
+
+            <div class="ProjectSection"><!--Web Dev-->
+                <div class="ProjectSectionHeader">Projects In Web Development</div>
+                <div class="ProjectSectionBody">
+                    <div class="ProjectSectionBodyTile"><a href="assets/projects/quiz.html">Brain Drain Quiz Game:</a><br> Demonstrated Skills</div>
+                    <ul>
+                            <li>DOM Manipulation</li>
+                            <li>Dynamic UI/UX Design</li>
+                    </ul>
+                    </div>
+            </div>
+        </body>
+    </html>
